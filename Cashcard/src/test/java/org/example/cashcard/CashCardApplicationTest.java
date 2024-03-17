@@ -222,7 +222,7 @@ class CashCardApplicationTests {
                 .getForEntity("/cashcards/102", String.class);
         assertThat(getResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
     }
-    }
+
 
 
 }
