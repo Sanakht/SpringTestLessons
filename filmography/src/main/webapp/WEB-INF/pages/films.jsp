@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>FILMS</title>
+    <link href="<c:url value="/res/style.css"/>" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 
@@ -30,6 +31,13 @@
         </tr>
     </c:forEach>
 </table>
+
+<c:forEach begin="1" end="${pagesCount}" step="1" varStatus="i">
+    <c:url value="/" var="url">
+        <c:param name="page" value="${i.index}"/>
+    </c:url>
+    <a href="${url}">${i.index}</a>
+</c:forEach>
 
 <h2>Add</h2>
 <c:url value="/add" var="add"/>
