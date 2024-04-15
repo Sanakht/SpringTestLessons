@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee26684-d9e1-49f9-aeac-2d276b919280" name="Changes" comment="DI">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springtest/ActionFilm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/filmPlayer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springtest/FilmPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springtest/FilmPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springtest/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springtest/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +98,7 @@
       <updated>1712766747468</updated>
       <workItem from="1712766748463" duration="4179000" />
       <workItem from="1712771389781" duration="77000" />
-      <workItem from="1713186349870" duration="2797000" />
+      <workItem from="1713186349870" duration="3218000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
