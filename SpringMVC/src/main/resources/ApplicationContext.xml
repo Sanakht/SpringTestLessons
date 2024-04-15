@@ -6,36 +6,5 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
-
-    <context:property-placeholder location="classpath:filmPlayer.properties"/>
-
-    <bean id="horrorFilm"
-          class="springtest.HorrorFilm">
-    </bean>
-
-    <bean id="classicalFilm"
-          class="springtest.ClassicalFilm">
-    </bean>
-
-    <bean id="actionFilm"
-          class="springtest.ActionFilm">
-    </bean>
-
-    <bean id="filmPlayer"
-          class="springtest.FilmPlayer">
-        <property name="film">
-            <list>
-                <ref bean="horrorFilm"/>
-                <ref bean="classicalFilm"/>
-                <ref bean="actionFilm"/>
-            </list>
-        </property>
-
-
-        <property name="name" value="${filmPlayer.name}"/>
-
-        <property name="time" value="${filmPlayer.time}"/>
-    </bean>
-
-
+        <context:component-scan base-package="springtest"/>
 </beans>

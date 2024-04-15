@@ -1,40 +1,20 @@
 package springtest;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class FilmPlayer {
-    private List<Film> filmList = new ArrayList<>();
-    private int time;
-    private String name;
+    @Autowired
+    @Qualifier("horrorFilm20")
+    private Film film;
 
-    public int getTime() {
-        return time;
-    }
+    public String playFilm(){
+        return "Playing: " + film.getNameFilm();
 
-    public void setTime(int time) {
-        this.time = time;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setFilm(List<Film> filmList) {
-        this.filmList = filmList;
-    }
-
-   // public FilmPlayer(Film film) {
-   //     this.film = film;
-   // }
-
-    public void playFilm(){
-        for (Film film : filmList){
-            System.out.println(film.getNameFilm());
-        }
     }
 }
