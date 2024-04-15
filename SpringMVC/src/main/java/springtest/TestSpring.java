@@ -15,9 +15,9 @@ public class TestSpring {
         FilmPlayer filmPlayer = context.getBean("filmPlayer", FilmPlayer.class);
         filmPlayer.playFilm();
 
+        System.out.println(filmPlayer.getName());
+        System.out.println(filmPlayer.getTime());
+
         context.close();
     }
-
-
-
 }
