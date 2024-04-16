@@ -2,7 +2,7 @@ package springtest;
 
 import org.springframework.stereotype.Component;
 
-@Component("horrorFilm20")
+@Component
 public class HorrorFilm implements Film{
     @Override
     public String getNameFilm() {

@@ -8,6 +8,10 @@ public class Computer {
     private int id;
     private FilmPlayer filmPlayer;
 
+    public FilmPlayer getFilmPlayer() {
+        return filmPlayer;
+    }
+
     @Autowired
     public Computer(FilmPlayer filmPlayer) {
         this.id = 1;
