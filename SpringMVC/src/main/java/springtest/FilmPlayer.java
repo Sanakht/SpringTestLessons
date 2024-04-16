@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-@Scope("singleton")
+@Scope("prototype")
 public class FilmPlayer {
     @Autowired
     @Qualifier("classicalFilm")
