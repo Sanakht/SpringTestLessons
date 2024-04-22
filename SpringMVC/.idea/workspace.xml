@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ee26684-d9e1-49f9-aeac-2d276b919280" name="Changes" comment="DI">
+      <change afterPath="$PROJECT_DIR$/../SpringMVCapp1/src/main/java/springtest/MVCapp1/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCapp1/src/main/java/springtest/MVCapp1/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCapp1/src/main/java/springtest/MVCapp1/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCapp1/src/main/webapp/WEB-INF/applicationContextMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCapp1/src/main/webapp/WEB-INF/views/hello_world.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVCapp1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVCapp1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVCapp1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVCapp1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2euuNzDRPncxX98Zv8j8BH11fWr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TestSpring.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SpringTestLessons/SpringMVC&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springtest.TestSpring" />
+      <module name="SpringTestCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestSpring" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-20.0.2-corretto-20.0.2.1-4caba194b151-5bc9ecd2" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ee26684-d9e1-49f9-aeac-2d276b919280" name="Changes" comment="" />
+      <created>1712766747468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712766747468</updated>
+      <workItem from="1712766748463" duration="4179000" />
+      <workItem from="1712771389781" duration="77000" />
+      <workItem from="1713186349870" duration="10453000" />
+      <workItem from="1713291004199" duration="1434000" />
+      <workItem from="1713292555605" duration="20000" />
+      <workItem from="1713292593834" duration="312000" />
+      <workItem from="1713293548418" duration="615000" />
+      <workItem from="1713294184977" duration="14000" />
+      <workItem from="1713294978765" duration="126000" />
+      <workItem from="1713295507171" duration="37000" />
+      <workItem from="1713295551170" duration="54000" />
+      <workItem from="1713295611851" duration="321000" />
+      <workItem from="1713295939767" duration="3393000" />
+      <workItem from="1713358746327" duration="77000" />
+      <workItem from="1713475276215" duration="43000" />
+      <workItem from="1713729407621" duration="10000" />
+      <workItem from="1713799967329" duration="320000" />
+      <workItem from="1713800295554" duration="363000" />
+      <workItem from="1713800929662" duration="166000" />
+      <workItem from="1713801263973" duration="38000" />
+      <workItem from="1713801330744" duration="55000" />
+      <workItem from="1713801391980" duration="26000" />
+      <workItem from="1713801442482" duration="377000" />
+      <workItem from="1713806304730" duration="37000" />
+      <workItem from="1713806546809" duration="58000" />
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <option name="closed" value="true" />
+      <created>1712770377499</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712770377499</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DI">
+      <option name="closed" value="true" />
+      <created>1712771051340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712771051340</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <MESSAGE value="DI" />
+    <option name="LAST_COMMIT_MESSAGE" value="DI" />
+  </component>
+</project>
