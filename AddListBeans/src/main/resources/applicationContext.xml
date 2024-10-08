@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:util="http://www.springframework.org/schema/util"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util-2.5.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+        <bean id="ClassicMusic"
+         class="ru.springtest.springcourse.ClassicMusic">
+        </bean>
+
+        <bean id="MetalMusic"
+        class="ru.springtest.springcourse.MetalMusic">
+        </bean>
+
+        <bean id="RockMusic"
+        class="ru.springtest.springcourse.RockMusic">
+        </bean>
+
+        <util:list id="NewList" value-type="ru.springtest.springcourse.Music">
+                <ref bean="RockMusic"/>
+                <ref bean="MetalMusic"/>
+                <ref bean="ClassicMusic"/>
+        </util:list>
+
+        <bean id="MusicPlayer"
+        class="ru.springtest.springcourse.MusicPlayer">
+                <constructor-arg ref="NewList"/>
+        </bean>
+
+
+
+
+</beans>
